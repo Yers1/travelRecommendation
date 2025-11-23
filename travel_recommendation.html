@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TravelBloom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <a href="travel_recommendation.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+
+        <div class="nav-right">
+            <input id="searchInput" type="text" placeholder="Search...">
+            <button class="search-btn" onclick="search()">Search</button>
+            <button class="clear-btn" onclick="clearResults()">Clear</button>
+        </div>
+    </div>
+
+    <!-- HOME PAGE -->
+    <div class="home-container">
+        <div class="home-title">
+            EXPLORE<br>DREAM<br>DESTINATION
+        </div>
+
+        <div class="home-text">
+            It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes,
+            while pursuing the desired destination that captivates the heart.
+        </div>
+
+        <button class="book-btn">BOOK NOW</button>
+    </div>
+
+    <!-- RESULTS SECTION -->
+    <div id="results"></div>
+
+    <script src="travel_recommendation.js"></script>
+
+</body>
+</html>
